@@ -29,7 +29,5 @@ public class ChatController {
 
         if(talker == null) throw new UnAuthenticationException("로그인한 사용자만 채팅에 참여할 수 있습니다.");
         return message;
-
-
     }
 }
